@@ -86,7 +86,7 @@
 &kp LCTRL     &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 LANG2  &lt 2 SPACE  &lt 3 LANG1      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT_ARROW>;
         };
 
         FUNCTION {
@@ -97,7 +97,7 @@
 &trans  &trans           &trans        &trans                &trans                 &trans      &trans  &trans                                                                         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT_ARROW>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         NUM {
